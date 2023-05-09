@@ -20,7 +20,7 @@ def get_data():
     Load the data file - this could be improved by allowing the user to choose the file
     :return: a dataframe with the csv file loaded
     """
-    return pd.read_csv("C:/Users/vince/CS230/final/correct_lat_lng_mass_shootings_final_20171116_835.csv")
+    return pd.read_csv("./correct_lat_lng_mass_shootings_final_20171116_835.csv")
 
 
 def get_years(df):
